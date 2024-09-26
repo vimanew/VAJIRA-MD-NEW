@@ -16,16 +16,32 @@
             "required": true,
             "value": "button"
         },
-    "HEROKU_APP_NAME": {
-            "description": "Put Heroku app name here / හෙරොකු හි ඩිප්ලොයි කරන විට මුලි දැමු app name එක නැවද දමන්න",
+    "ANTI_DELETE": {
+            "description": "Antidelete",
             "required": true,
-            "value": ""
+            "value": "true"
         },
-    "HEROKU_API_KEY": {
-            "description": "Put Heroku Api key here / හෙරොකු api key එක දමන්න",
+    "AUTO_REACT": {
+            "description": "react",
             "required": true,
-            "value": ""
+            "value": "true"
         },
+    "WORK_TYPE": {
+            "description": "react",
+            "required": true,
+            "value": "public"
+        },
+"ALWAYS_ONLINE": {
+            "description": "react",
+            "required": true,
+            "value": "true"
+        },
+    "AUTO_STATUS_READ": {
+            "description": "react",
+            "required": true,
+            "value": "true"
+        },
+
     "POSTGRESQL_URL": {
             "description": "Put Any postgres url here",
             "required": true,
@@ -34,7 +50,7 @@
     "OWNER_NUMBER": {
             "description": "Put Your Number Here",
             "required": true,
-            "value": ""
+            "value": "94776734030"
 }
 
     },
