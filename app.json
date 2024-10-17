@@ -21,10 +21,51 @@
             "required": true,
             "value": "postgres://vajiratech_user:oSIFl2xmSojMZ0rkzdd0g0W6msuVTpNN@dpg-cpd7fjv109ks73e5gtig-a.frankfurt-postgres.render.com/vajiratech"
         },
-    "OWNER_NUMBER": {
-            "description": "Put Your Number Here",
+    "ANTI_DELETE": {
             "required": true,
-            "value": ""
+            "value": "true"
+        },
+    "AUTO_REACT": {
+            "required": true,
+            "value": "false"
+        },
+"OWNER_REACT": {
+            "required": true,
+            "value": "true"
+        },
+"AUTO_VOICE": {
+            "required": true,
+            "value": "true"
+        },
+"AUTO_STICKER": {
+            "required": true,
+            "value": "true"
+        },
+    "WORK_TYPE": {
+          
+            "required": true,
+            "value": "public"
+        },
+"ALWAYS_ONLINE": {
+         
+            "required": true,
+            "value": "true"
+        },
+    "AUTO_STATUS_READ": {
+        
+            "required": true,
+            "value": "true"
+        },
+
+    "POSTGRESQL_URL": {
+            "description": "Put Any postgres url here",
+            "required": true,
+            "value": "postgres://vajiratech_user:oSIFl2xmSojMZ0rkzdd0g0W6msuVTpNN@dpg-cpd7fjv109ks73e5gtig-a.frankfurt-postgres.render.com/vajiratech"
+        },
+    "OWNER_NUMBER": {
+         
+            "required": true,
+            "value": "94776734030"
 }
 
     },
